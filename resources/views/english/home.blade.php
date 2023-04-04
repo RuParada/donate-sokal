@@ -248,7 +248,7 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-6">
 					<div class="section-title">
-						<h2><span>Schoolchildren </span> Thoughts</h2>
+						<h2><span>Schoolchildren' </span> Thoughts</h2>
 					</div>
 				</div>
 			</div>

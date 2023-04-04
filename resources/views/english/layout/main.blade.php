@@ -129,7 +129,7 @@
 <!--=============================================================== End Header Area =================-->
 @yield('content')
 <!--=============================================================== start footer Area =================-->
-<footer class="footer">
+<footer class="footer" style="display:none">
     <div class="footer-area">
         <div class="container">
             <div class="row section_gap">
