@@ -65,14 +65,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/social-buttons-share.css') }}" media="all" />
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font/font.css') }}" media="all" />
-    <style>
-        .navbar-nav li:nth-child(7),
-        .navbar-nav li:nth-child(2),
-        .navbar-nav li:nth-child(3)
-        {
-          display: none;
-        }
-    </style>
 </head>
 <body>
     <!-- Load Facebook SDK for JavaScript -->

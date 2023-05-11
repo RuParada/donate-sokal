@@ -33,7 +33,7 @@
 						Donate Now
 						<i class="ti-angle-right ml-1"></i>
 					</a> -->
-					<a href="#donate" class="primary-btn">Donate Now<i class="ti-angle-down ml-1"></i></a>
+					<a target="_blank" href="https://www.gofundme.com/f/the-future-of-ukraine-foundation-sokal/donate" class="primary-btn">Donate Now<i class="ti-angle-right ml-1"></i></a>
 					<!-- ===============================  Home  ======================================== -->
 				</div>
 			</div>
@@ -92,9 +92,9 @@
 			<div class="row feature_inner">
 				<div class="col-lg-4 col-md-6">
 					<!-- <a href="https://sokal.life/Causes/help-for-children-from-low-income-families" class="feature-item"> -->
-					<a href="#donate" class="feature-item">
+					<a href="https://www.gofundme.com/f/the-future-of-ukraine-foundation-sokal/donate" target="_blank" class="feature-item">
 						<i class="fi flaticon-compass"></i>
-						<h4>Give Donation</h4>
+						<h4>Donate Today</h4>
 						<!-- ===============================  Home  ======================================== -->
 						<p>{!! Setting()->content_feature_en !!}</p>
 						<!-- ===============================  Home  ======================================== -->
@@ -103,7 +103,7 @@
 				<div class="col-lg-4 col-md-6">
 					<a href="https://sokal.life/Gallery" class="feature-item">
 						<i class="fi flaticon-desk"></i>
-						<h4>Get inspired</h4>
+						<h4>Be inspired</h4>
 						<!-- ===============================  Home  ======================================== -->
 						<p>{!! Setting()->content_feature_two_en !!}</p>
 						<!-- ===============================  Home  ======================================== -->
@@ -112,7 +112,7 @@
 				<div class="col-lg-4 col-md-6">
 					<a href="https://sokal.life/Events" class="feature-item">
 						<i class="fi flaticon-bathroom"></i>
-						<h4>Fund report</h4>
+						<h4>Our Achievements</h4>
 						<!-- ===============================  Home  ======================================== -->
 						<p>{!! Setting()->content_feature_three_en !!}</p>
 						<!-- ===============================  Home  ======================================== -->
@@ -146,7 +146,7 @@
 								<img class="card-img-top img-fluid" src="{!! asset($Cause->image) !!}" alt="Card image cap">
 							</figure>
 							<div class="card_inner_body">
-								 <div class="tag">LIST OF FUTURE EVENTS:</div>
+								 <div class="tag">UPCOMING EVENTS:</div>
 		                         
 		                         <!-- ===============================  Home  ======================================== -->
 								<h4 class="card-title">{!! substr($Cause->Content_en, 0, 2000) !!}</h4>
@@ -248,7 +248,7 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-6">
 					<div class="section-title">
-						<h2><span>Schoolchildren' </span> Thoughts</h2>
+						<h2><span>Schoolchildren's </span> Thoughts</h2>
 					</div>
 				</div>
 			</div>
@@ -337,15 +337,14 @@
 
 
 	<!--================ Start callto Area =================-->
-	<section class="callto-area section-gap relative">
+	<section class="callto-area section-gap relative social-block">
 		<div class="overlay overlay-bg"></div>
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
-					<p class="top_text">Do you feel like you want to help this project somehow?</p>
 					<div class="call-wrap mx-auto">
-						<h1>Tell about us</h1>
-						<p>Help people to find out about us on social networks, it will help us a lot. Retweet this site on your social page if you can.</p>
+						<h1>Sharing our story</h1>
+						<p class="top_text">Thank you for sharing our story through social media </p>
 						<!-- ===============================  Home  ======================================== -->
 						<!-- <a href="{{ route('register') }}" class="primary-btn mt-5">
 							Sign up
@@ -359,8 +358,7 @@
 								</li>
 								<li class="social-twitter" title="Share on Twitter"></li>
 								<li class="social-instagram" title="Share on Instagram"></li>
-							</ul>
-							
+							</ul>							
 						</div> -->
 					</div>
 				</div>
@@ -369,78 +367,4 @@
 	</section>
 	<!--================ End callto Area ===========================-->
 
-	<!--================ Start Home Blog Area =================-->
-	<!--<section class="blog-area section-gap-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-md-12">
-					<div class="home-blog-left">
-						<h2>Latest From
-							Our Blog </h2>
-						<p>
-							{!! Setting()->content_blog_en !!} 
-						</p>
-						<a href="{{ url('Posts') }}" class="primary-btn2">Show more</a>
-					</div>
-				</div> 
-                @foreach($Posts as $Post)
-				<div class="col-lg-4 col-md-6 single-blog">
-					<div class="thumb" style="max-height:320px">
-						
-						<img class="img-fluid" src="{!! asset($Post->image) !!}" alt="{!! substr($Post->Title_en, 0, 190) !!}">
-					</div>
-					<div class="single-blog-info">
-						<p class="tag">
-							  @if(isset($Post->Category->title))
-                              <span>{{ $Post->Category->title }}</span>
-                              @else
-                              <span>No Category</span>
-                              @endif
-							<span>{{ date('M j, Y', strtotime($Post->created_at)) }}</span>
-						</p>
-						<a href="{!! url('Posts') !!}/{!! $Post->slug !!}">
-							<h4>{!! substr($Post->Title_en, 0, 190) !!}</h4>
-						</a>
-						<div class="meta-bottom d-flex">
-					     @if(isset($Post->Comments)) 
-			             <a class="mr-3"><span class="ti-comments mr-2"></span>{{ count($Post->Comments) }} Comments</a>
-			             @else
-			             <a class="mr-3"><span class="ti-comments mr-2"></span> 0 Comments</a>
-			             @endif
-						 <a href="{!! url('Posts') !!}/{!! $Post->slug !!}"> <span class="ti-eye mr-2"></span> Show more</a>
-						</div>
-					</div>
-				</div>
-                @endforeach
-			</div>
-		</div>
-	</section>-->
-	<!--================ End Home Blog Area =================-->
-
-	<!--================ Start Gallery Area =================-->
-	<!--<section class="instagram-area section-gap-top">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title">
-						<h2><span>Our Gallery</span></h2>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="instagram-slider owl-carousel">
-			 @foreach($Gallers as $Gallery)       
-			<a href="{!! asset($Gallery->image) !!}" class="single-instagram d-block img-pop-up">
-				<div class="instagram-img">
-					<img src="{!! asset($Gallery->image) !!}">
-					<div class="instagram-text">
-						<i class=" icon-material-outline-add"></i>
-					</div>
-				</div>
-			</a>
-			@endforeach
-		</div>
-	</section>-->
-	<!--================ End Gallery Area =================-->
-<!-- ============================================================= Content end   ============================================================= -->
 @endsection

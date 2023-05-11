@@ -147,12 +147,7 @@
           <div id="fb-root"></div>
           <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1998044820438282&autoLogAppEvents=1">
           </script>
-          <!-- ===============================  Post  ======================================== -->
-            <aside class="single_sidebar_widget newsletter_widget">
-              <div class="fb-page" data-href="{!! Setting()->Facebook !!}" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="{!! Setting()->Facebook !!}" class="fb-xfbml-parse-ignore">
-                <a href="{!! Setting()->Facebook !!}">Meteors</a></blockquote></div>
-            </aside>
-            <!-- ===============================  Post  ======================================== -->
+
           </div>
         </div>
       </div>

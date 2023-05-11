@@ -9,7 +9,7 @@
         <div class="overlay overlay-bg"></div>
         <div class="container">
             <div class="row justify-content-lg-start align-items-center banner-content">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <h1 class="text-white">Report</h1>
                     <p>This page displays the latest events created by the foundation</p>
                 </div>
@@ -20,7 +20,7 @@
     <section class="upcoming_event_area section-gap-top">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="section-title">
                         <h2><span>Latest </span> Events</h2>
                     </div>
@@ -76,9 +76,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <p class="top_text">Thankgenerositys for your heart.</p>
-                    <h1>Contribute to our charitable work with your donations. Thanks for your heart.</h1>
-                     <a href="https://sokal.life#donate" class="primary-btn">Donate Now</a>
+                    <p class="top_text">Contribute to our charitable work with your donations. Thanks for your heart.</p>
+                    <h1>Your contributions make our work possible.</h1>
+                     <a href="https://www.gofundme.com/f/the-future-of-ukraine-foundation-sokal/donate" target="_blank" class="primary-btn">Donate Now</a>
                 </div>
             </div>
         </div>

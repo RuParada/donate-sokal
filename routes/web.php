@@ -98,12 +98,12 @@ Route::group(['middleware' => 'admin'], function () {
 |--------------------------------------------------------------------------
 |
 */
-Route::resource('Causes','CauseController');
+//Route::resource('Causes','CauseController');
 Route::resource('Events','EventController');
 Route::resource('Posts','PostController');
 Route::resource('Comments','CommentController');
 Route::resource('Messages','messageController');
 // route for processing payment
-Route::post('paypal', 'PaymentController@payWithpaypal');
+//Route::post('paypal', 'PaymentController@payWithpaypal');
 // route for check status of the payment
-Route::get('status', 'PaymentController@getPaymentStatus');
+//Route::get('status', 'PaymentController@getPaymentStatus');

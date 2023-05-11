@@ -9,7 +9,7 @@
     <!-- ====== Laravel description site edit delete from admin panel ================== -->
     <meta name="description" content="{!! Setting()->MetaDescription  !!}">
     <!-- ====== Laravel author site edit delete from admin panel ====================== -->
-    <meta name="author" content="Charity Foundation Future of Ukraine Sokal">
+    <meta name="author" content="iparus.pro@gmail.com">
     <meta name="keywords" content="Благодійний фонд Майбутнє України. Сокальщина. Charity Foundation Future of Ukraine. Sokal">
     <!-- ====== Laravel robots site edit delete from admin panel ================== -->
     <meta name="robots" content="{!! Setting()->SiteTitle  !!}">
@@ -33,8 +33,8 @@
 
     <meta property="og:url"           content="https://sokal.life" />
     <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Future of Ukraine. Sokalshchyna" />
-    <meta property="og:description"   content="A charitable foundation created to support schoolchildren from low-income families in the city of Sokal" />
+    <meta property="og:title"         content="{!! Setting()->MetaTitle  !!}" />
+    <meta property="og:description"   content="{!! Setting()->MetaDescription  !!}" />
     <meta property="og:image"         content="https://sokal.life/storage/settings/October2019/1.png" />
     <!-- ====== Laravel favicon icon================== -->
     <!-- ====== Laravel title site edit delete from admin panel ================== -->
@@ -65,14 +65,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/social-buttons-share.css') }}" media="all" />
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font/font.css') }}" media="all" />
-    <style>
-        .navbar-nav li:nth-child(7),
-        .navbar-nav li:nth-child(2),
-        .navbar-nav li:nth-child(3)
-        {
-          display: none;
-        }
-    </style>
+    
 </head>
 <body>
     <!-- Load Facebook SDK for JavaScript -->

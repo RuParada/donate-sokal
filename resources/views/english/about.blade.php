@@ -10,8 +10,8 @@
     <section class="banner-area relative">
         <div class="overlay overlay-bg"></div>
         <div class="container">
-            <div class="row justify-content-lg-start align-items-center banner-content">
-                <div class="col-lg-6">
+            <div class="row justify-content-lg-center align-items-center banner-content">
+                <div class="col-lg-10">
                     <h1 class="text-white">About Us</h1>
                     <!-- ===============================  About  ======================================== -->
                     <p>{!! Setting()->about_en !!}</p>
@@ -56,10 +56,10 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <p class="top_text">Thankgenerositys for your heart.</p>
-                    <h1>Contribute to our charitable work with your donations. Thanks for your heart.</h1>
+                    <p class="top_text">Thank you for your generosity.</p>
+                    <h1>Your contributions make our work possible</h1>
                     <!--================ Start Popular Event Area =================-->
-                    <a href="{!! url('Causes') !!}" class="primary-btn">donation</a>
+                    <a target="_blank" href="https://www.gofundme.com/f/the-future-of-ukraine-foundation-sokal/donate" class="primary-btn">donation</a>
                 </div>
             </div>
         </div>

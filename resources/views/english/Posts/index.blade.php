@@ -10,7 +10,7 @@
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
 		<div class="row align-items-center banner-content">
-			<div class="col-lg-5">
+			<div class="col-lg-12">
 				<h1 class="text-white">Our Posts</h1>
 				<!-- =============================== Setting BASE ======================================== -->
 				<p>{!! Setting()->content_blog_en !!}</p>

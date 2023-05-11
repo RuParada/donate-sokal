@@ -10,7 +10,7 @@
   <div class="overlay overlay-bg"></div>
   <div class="container">
     <div class="row justify-content-rt-end align-items-center banner-content">
-      <div class="col-lg-6">
+      <div class="col-lg-12">
         <h1 class="text-white">Contact Us</h1>
         <!-- ===============================  Contact  ======================================== -->
         <p>{{ Setting()->about_en }}</p>
@@ -76,7 +76,7 @@
           <div class="media-body">
             <h3>Head Office</h3>
             <!-- ===============================  Contact  ======================================== -->
-            <p>{{ Setting()->Location }}</p>
+            <p>{!! Setting()->Location !!}</p>
             <!-- ===============================  Contact  ======================================== -->
           </div>
         </div>

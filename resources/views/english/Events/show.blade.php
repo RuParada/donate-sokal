@@ -41,9 +41,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <p class="top_text">Thanks for your heart.</p>
-                    <h1>Contribute to our charitable work with your donations. Thanks for your heart.</h1>
-                    <a href="{!! url('Causes') !!}" class="primary-btn">donation</a>
+                    <p class="top_text">Thank you for your generosity.</p>
+                    <h1>Your contributions make our work possible</h1>
+                    <a target="_blank" href="https://www.gofundme.com/f/the-future-of-ukraine-foundation-sokal/donate" class="primary-btn">donation</a>
                 </div>
             </div>
         </div>

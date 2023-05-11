@@ -76,18 +76,11 @@
           <div class="media-body">
             <h3>Головний офіс</h3>
             <!-- ===============================  Contact  ======================================== -->
-            <p>{{ Setting()->Location }}</p>
+            <p>{!! Setting()->Location !!}</p>
             <!-- ===============================  Contact  ======================================== -->
           </div>
         </div>
-        <div class="media contact-info">
-          <span class="contact-info__icon"><i class="icon-feather-phone"></i></span>
-          <div class="media-body">
-            <!-- ===============================  Contact  ======================================== -->
-            <h3><a href="tel:{{ Setting()->PhoneNumber }}">{{ Setting()->PhoneNumber }}</a></h3>
-            <!-- ===============================  Contact  ======================================== -->
-          </div>
-        </div>
+
         <div class="media contact-info">
           <span class="contact-info__icon"><i class="icon-material-outline-email"></i></span>
           <div class="media-body">

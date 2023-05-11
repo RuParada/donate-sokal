@@ -341,7 +341,7 @@
 	<!--================ End Children Verse Area =================-->
 
 	<!--================ Start callto Area =================-->
-	<section class="callto-area section-gap relative">
+	<section class="callto-area section-gap relative social-block">
 		<div class="overlay overlay-bg"></div>
 		<div class="container">
 			<div class="row justify-content-center">
